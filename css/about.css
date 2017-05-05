@@ -1,0 +1,68 @@
+
+.about-hero{
+    background-image: url("../img/abouthero2.png");
+    height: 450px;
+    background-size: cover;
+    padding-top: 200px;
+    /*position: relative;*/
+    background-attachment: fixed;
+    width: 100%;
+    background-position: center;
+}
+
+.about-hero h1{
+    margin: 0px;
+    text-align: center;
+    color: white;
+    /*position: absolute*/
+    /*top: 50%;*/
+    /*left: 15%;*/
+}
+
+/* COLUMN BEGINS HERE*/
+.column {
+    width: 33.33%;
+    box-sizing: border-box;
+    border: 1px solid black;
+    float: left;
+    height: 500px;
+    padding: 0px 15px;
+    text-align: center;
+    position: relative;
+}
+.column h3{
+    text-align: center;
+    height: 30px;
+}
+
+.column p {
+    text-align: justify;
+    margin-top: 15px;
+    /*height: 300px;*/
+    line-height:1.25em;
+    /*overflow: auto;*/
+}
+
+.column button{
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    text-decoration: underline;
+    position: absolute;
+    bottom: 0px;
+}
+
+#col-1 button{
+    background-color: #ff00ff;
+    color: #ff9999;
+}
+
+#col-2 button{
+    background-color: blue;
+    color: #ffff00;
+}
+
+#col-3 button{
+    background-color: green;
+    color: #00ffff;
+}
